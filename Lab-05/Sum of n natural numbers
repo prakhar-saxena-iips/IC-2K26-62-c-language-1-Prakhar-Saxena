@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+int n, Sum=0;
+printf("Enter a range from o to n which you want sum of ");
+scanf("%d",&n);
+for(int i=1; i<=n;i++){
+Sum=Sum+i;
+}
+printf("Sum of natural numbers is %d", Sum);
+return 0;
+}
+
+Output 
+Enter a range from o to n which you want sum of 10
+Sum of natural numbers is 55
