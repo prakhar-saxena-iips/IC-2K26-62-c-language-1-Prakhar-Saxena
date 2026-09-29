@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&n);
     printf ("Fibonacci Series\n");
     for(int i=1;i<=n;++i){
-        printf("%d",a);
+        printf("%d ",a);
         c=a+b;
         a=b;
         b=c;
@@ -13,8 +13,7 @@ int main() {
 return 0;
 }
 
-
-Output 
+Output
 Enter the number of Fibonacci Series print 7
 Fibonacci Series
-0112358
+0 1 1 2 3 5 8 
