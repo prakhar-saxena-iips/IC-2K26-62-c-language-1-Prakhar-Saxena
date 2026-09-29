@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int A=69,B=89;
+    int C;
+    printf("Value of A is %d and value of B is %d\n",A,B);
+    C=A;
+    A=B;
+    B=C;
+    printf("Value of A is %d and value of B is %d\n",A,B);
+    return 0;
+}
+
+
+Output-
+Value of A is 69 and value of B is 89
+Value of A is 89 and value of B is 69
