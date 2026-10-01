@@ -3,6 +3,7 @@
 int main() {
     int A=69,B=89;
     int C;
+    printf("By Prakhar Saxena");
     printf("Value of A is %d and value of B is %d\n",A,B);
     C=A;
     A=B;
@@ -13,5 +14,6 @@ int main() {
 
 
 Output-
+By Prakhar Saxena
 Value of A is 69 and value of B is 89
 Value of A is 89 and value of B is 69
