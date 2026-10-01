@@ -5,13 +5,14 @@ int main() {
     int a=5;
     int b=++a;
     printf("By Prakhar Saxena\n");
-    printf("%d%d",a,b);
+    printf("%d\n%d",a,b);
 
     return 0;
 }
 Output 
 By Prakhar Saxena
-66
+6
+6
 
 === Code Execution Successful ===
 
