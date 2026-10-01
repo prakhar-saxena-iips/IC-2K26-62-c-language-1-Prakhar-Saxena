@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+int i,j;
+printf("By Prakhar Saxena\n");
+printf("Enter the number which you want table of ");
+scanf("%d",&j);
+for (i=1;i<=10;i++){
+    printf("%d\n",i*j);
+}
+    return 0;
+}
+
+
+Output 
+By Prakhar Saxena
+Enter the number which you want table of 3
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
