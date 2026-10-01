@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     int n,a=0,b=1,c;
+    printf("By Prakhar Saxena\n");
     printf("Enter the number of Fibonacci Series print ");
     scanf("%d",&n);
     printf ("Fibonacci Series\n");
@@ -14,6 +15,7 @@ return 0;
 }
 
 Output
+By Prakhar Saxena
 Enter the number of Fibonacci Series print 7
 Fibonacci Series
 0 1 1 2 3 5 8 
