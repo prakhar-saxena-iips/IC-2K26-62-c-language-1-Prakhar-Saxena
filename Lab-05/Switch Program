@@ -3,7 +3,7 @@
 int main() {
     int A=69,B=89;
     int C;
-    printf("By Prakhar Saxena");
+    printf("By Prakhar Saxena\n");
     printf("Value of A is %d and value of B is %d\n",A,B);
     C=A;
     A=B;
