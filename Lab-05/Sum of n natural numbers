@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
 int n, Sum=0;
+printf("By Prakhar Saxena\n");
 printf("Enter a range from o to n which you want sum of ");
 scanf("%d",&n);
 for(int i=1; i<=n;i++){
@@ -11,5 +12,6 @@ return 0;
 }
 
 Output 
+By Prakhar Saxena
 Enter a range from o to n which you want sum of 10
 Sum of natural numbers is 55
