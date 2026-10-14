@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+    int a;
+    printf("By Prakhar Saxena\n");
+    printf("Enter 1 if you passed in Science , 2 for Maths and 3 if you passed in both.\n");
+    scanf("%d",&a);
+    if(a==1||a==2)
+    printf("Your gift is 15 points.");
+    else if(a==3)
+    printf("Your gift is 45 points.");
+    else 
+    printf("Enter valid number nigga.");
+    return 0;
+}
+
+Output-1
+By Prakhar Saxena
+Enter 1 if you passed in Science , 2 for Maths and 3 if you passed in both.
+69
+Enter valid number nigga.
+
+Output-2
+By Prakhar Saxena
+Enter 1 if you passed in Science , 2 for Maths and 3 if you passed in both.
+3
+Your gift is 45 points.
