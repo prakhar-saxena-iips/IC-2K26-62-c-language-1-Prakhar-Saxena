@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+    int a;
+    printf("By Prakhar Saxena\n");
+    printf("Enter your number ");
+    scanf("%d",&a);
+    if (a%3==0&&a%5!=0)
+        printf("The number is fulfilling the condition");
+    else
+        printf("It doesn't fulfil the condition");
+    return 0;
+}
+
+
+Output 
+By Prakhar Saxena
+Enter your number 9
+The number is fulfilling the condition
