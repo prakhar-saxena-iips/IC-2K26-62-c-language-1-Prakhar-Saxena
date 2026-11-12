@@ -1,0 +1,40 @@
+#include <stdio.h>
+struct Student
+{
+    int roll;
+    char name[20];
+    float marks;
+};
+int main()
+{
+    printf("By Prakhar Saxena\n");
+    struct Student s[3] = {
+        {1, "Amit", 85.5},
+        {2, "Rahul", 90.0},
+        {3, "Priya", 88.5}
+    };
+    int i;
+    for(i = 0; i < 3; i++)
+    {
+        printf("\nRoll: %d", s[i].roll);
+        printf("\nName: %s", s[i].name);
+        printf("\nMarks: %.2f\n", s[i].marks);
+    }
+    return 0;
+}
+
+
+Output
+By Prakhar Saxena
+
+Roll: 1
+Name: Amit
+Marks: 85.50
+
+Roll: 2
+Name: Rahul
+Marks: 90.00
+
+Roll: 3
+Name: Priya
+Marks: 88.50
